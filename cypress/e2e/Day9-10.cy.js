@@ -13,9 +13,9 @@ describe('Assignment9_10', () => {
   beforeEach(()=>{
     
     loginPage.loginUrl();  
-    loginPage.userName("practice")
-    loginPage.password("SuperSecretPassword!")
-    loginPage.loginButton()  
+    loginPage.enterUsername("practice")
+    loginPage.enterPassword("SuperSecretPassword!")
+    loginPage.clickLogin()  
   });
   
   it('1.1POM-Valid Credential',()=>{
@@ -68,7 +68,7 @@ describe('Assignment9_10', () => {
 
   });
 
-    it.only('6 POM- dynamicContent',()=>{
+    it('6 POM- dynamicContent',()=>{
    let before
    dynamicContentPage.navigatedDynamicContentPage()
        dynamicContentPage.getTextBlocks().then((text1) => {
