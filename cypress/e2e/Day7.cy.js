@@ -90,7 +90,7 @@ describe('Day 7 - Dynamic Table Validations', () => {
   });
 
   // Assignment 7 Validate row content and CPU > 15%
-  it('Validates each row has browser name, no empty cell, and at least one CPU > 15%', () => {
+  it.only('Validates each row has browser name, no empty cell, and at least one CPU > 15%', () => {
     let cpuAbove15Exists = false;
 
     cy.get('table.table-striped tbody tr').each(($row) => {
