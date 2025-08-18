@@ -1,6 +1,6 @@
 
 
-import loginPage from '../../Pages/loginPage';
+import loginPage from '../Pages/loginPage';
 import securePage from '../../Pages/securePage';
 import checkBoxPage from '../../Pages/checkBoxPage';
 import cdropDownPage from '../../Pages/dropDownPage';
