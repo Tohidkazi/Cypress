@@ -13,9 +13,9 @@ describe('Assignment9_10', () => {
   beforeEach(()=>{
     
     loginPage.loginUrl();  
-    loginPage.enterUsername("practice")
-    loginPage.enterPassword("SuperSecretPassword!")
-    loginPage.clickLogin()  
+    loginPage.userName("practice")
+    loginPage.password("SuperSecretPassword!")
+    loginPage.loginButton()  
   });
   
   it('1.1POM-Valid Credential',()=>{
