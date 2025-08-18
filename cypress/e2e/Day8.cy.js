@@ -9,14 +9,14 @@
     }
      const loginData={
     
-      email:'qa.test2445@endava.com',
-      password:'gsssdgs'
+      email:'qa.vishnu111@endava.com',
+      password:'tunga123'
     }
   const randomNum = Math.floor(Math.random() * 10000);
     const restrationData = {
   name: `qatest${randomNum}`,
-  email: `qa.test${randomNum}@endava.com`,
-  password: 'gsssdgs'
+  email: `qa.vishnu111${randomNum}@endava.com`,
+  password: 'tunga123'
 };
 
 beforeEach(() => {

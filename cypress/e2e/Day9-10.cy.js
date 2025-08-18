@@ -1,12 +1,12 @@
 
 
 import loginPage from '../Pages/loginPage';
-import securePage from '../../Pages/securePage';
-import checkBoxPage from '../../Pages/checkBoxPage';
-import cdropDownPage from '../../Pages/dropDownPage';
-import dropDownPage from '../../Pages/dropDownPage';
-import contextMenuPage from '../../Pages/contextMenuPage';
-import dynamicContentPage from '../../Pages/dynamicContentPage';
+import securePage from '../Pages/securePage';
+import checkBoxPage from '../Pages/checkBoxPage';
+//import cdropDownPage from '../../Pages/dropDownPage';
+import dropDownPage from '../Pages/dropDownPage';
+import contextMenuPage from '../Pages/contextMenuPage';
+import dynamicContentPage from '../Pages/dynamicContentPage';
 
 describe('Assignment9_10', () => {
 
